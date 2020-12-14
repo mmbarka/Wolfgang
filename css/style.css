@@ -1,0 +1,187 @@
+html{
+    font-size: 62.5%;
+}
+ 
+ 
+ @font-face {
+    font-family: bodega;
+    src: url(../fonts/BodegaSans_Black.ttf);
+}
+
+body
+{
+    background-image: url(../img/bg_body.svg);
+    background-color: #444444;
+    margin: 0px 0px 0px;
+   
+}
+header{
+    background: linear-gradient(135deg, #ffffff 0%,#ffffff 50%,#343434 50%);
+}
+a:hover{
+    color: #ff9d00;
+}
+header nav {
+    float:right;
+    font-size: 2.5rem;
+    
+    font-family: bodega;
+    
+}
+
+header nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    
+}
+
+main, .container{
+    width: 1500px;
+    margin: auto;
+}
+#sec2{
+    width: 100%;
+}
+#sec2 article img{
+    width: 90%;
+}
+#sec2 article{
+    width: 23%;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: white;
+    padding-bottom: 20px;
+    text-align: center;
+    padding:1.5rem 2rem;
+    padding-bottom: 4rem;
+}
+.moto1{
+    margin-right: 40px;
+}
+
+#moto4{
+
+    margin-right: 0px;
+}
+
+.moto1 p, #moto4 p{
+    color: gray;
+    font-weight: normal;
+}
+video{
+    width: 100%;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0;
+    font-size: 4rem;
+    font-family: bodega;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: white;
+    font-family: bodega;
+    margin-left: 3rem;
+    padding-top: 3rem;
+}
+h3{
+    color: #ff9d00;
+    margin: 0px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: bodega;
+
+}
+hr
+{
+    background-color: #ff9d00;
+    height: 2px;
+    border: none;
+    width: 80%;
+
+}
+#sec2 article a {
+    color: white;
+    text-decoration: none;
+    background-color: #ff9d00;
+    padding: 1rem 7rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 2rem;
+}
+
+
+span{
+    color: #ff9d00;
+}
+
+
+#sec3 article{
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: top;
+    padding-bottom: 5rem;
+   } 
+   #sec3 article p {
+       color: white;
+   }
+  
+
+   p{
+       font-size:2rem;
+       line-height: 3rem;
+       font-family: 'PT Sans Narrow', sans-serif;
+   }
+
+   i{
+       padding:50px;
+       color: white;
+       font-size: 5rem;
+   }
+
+
+    footer{
+
+        text-align: center;
+        box-shadow: 0px -2px 8px 0px rgba(0, 0, 0, 0.6);
+        padding: 0rem 10rem 4rem;
+    }
+    footer h2{
+        color: #D0D0D0;
+    }
+    footer p{
+        color:  #D0D0D0;
+    }
+    footer nav a{
+        font-size: 2rem;
+        color:  #D0D0D0;
+        padding: 2rem;
+        font-family: 'PT Sans Narrow', sans-serif;
+    }
+
+    #logo3wa
+    {
+        width: 3%;
+        margin-top: 5rem;
+    }
+    #pf{
+        font-size: small;
+        line-height: normal;
+        padding: 0 40rem;
+    }
+
+    @media screen and (max-width:767px)
+    {
+        #sec2 article{
+            display: block;
+            margin-top: 4rem;
+          
+        
+        }
+    }
